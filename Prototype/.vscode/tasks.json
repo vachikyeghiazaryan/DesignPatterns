@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Prototype.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "clean",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "clean",
+                "${workspaceFolder}/Prototype.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "run",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "${workspaceFolder}/Prototype.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
